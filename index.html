@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git-hub-users</title>
+    <link rel="stylesheet" href="./css/normalize css.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./imgs/png/git-hub-cat.png" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-container">
+        <div class="header-top">
+          <img
+            class="logo"
+            src="./imgs/svg/devfinder logo.svg"
+            alt="logo"
+            width="128"
+            height="21.4"
+          />
+          <div class="mode">
+            <p id="mode-p">dark</p>
+            <img
+              id="mode-img"
+              src="./imgs/svg/dark-mode-icon.svg"
+              alt="moon"
+              width="20"
+              height="20"
+            />
+          </div>
+        </div>
+        <div class="heaader-search">
+          <img
+            src="./imgs/svg/search-icon.svg"
+            alt="search icon"
+            width="24"
+            height="24"
+          />
+          <form class="form">
+            <input
+              id="search-input-users"
+              type="text"
+              class="search-p"
+              placeholder="Search GitHub username…"
+            />
+
+            <div class="search-btn__wrapper">
+              <p id="no-result" class="Header__noresult"></p>
+              <button class="submit" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </header>
+      <main class="main-container">
+        <section class="main-top">
+          <img
+            id="user-img"
+            class="cat-img"
+            src="./imgs/png/git-hub-cat.png"
+            alt="github cat"
+          />
+          <div class="main-top__wrapper">
+            <div class="h1__wrapper">
+              <h1 id="user-name" class="user-name">The Octocat</h1>
+              <p class="h1-underline__second-name">@octocat</p>
+            </div>
+            <p class="join-date">
+              Joined <span id="join-date">25 jan 2011</span>
+            </p>
+          </div>
+        </section>
+        <section class="main-second-part">
+          <p class="main-second-part__p">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+            odio. Quisque volutpat mattis eros.
+          </p>
+          <div class="user-content">
+            <div class="user__repos">
+              <p class="user-content__p">Repos</p>
+              <p id="repoes" class="user-content__num">0</p>
+            </div>
+            <div class="user__Followers">
+              <p class="user-content__p">Followers</p>
+              <p id="FollowersUser" class="user-content__num">0</p>
+            </div>
+            <div class="user__Followings">
+              <p class="user-content__p">Followings</p>
+              <p id="FollowingsUser" class="user-content__num">0</p>
+            </div>
+          </div>
+        </section>
+        <section class="main-end">
+          <div class="main-end__left__icons">
+            <div class="icons__wrapper">
+              <img src="./imgs/svg/location-icon.svg" alt="location icon" />
+              <a id="user-location" class="links" href="#">San Francisco</a>
+            </div>
+            <div class="icons__wrapper">
+              <img src="./imgs/svg/link-icon.svg" alt="link icon" />
+              <a class="links" href="#">https://github.blog</a>
+            </div>
+          </div>
+          <div class="main-end__right__icons">
+            <div class="icons__wrapper">
+              <img src="./imgs/svg/twitter-icon.svg" alt="twitter icon" />
+              <a id="twister" class="links" href="#">Not Available</a>
+            </div>
+            <div class="icons__wrapper">
+              <img src="./imgs/svg/home-icon.svg" alt="home icon" />
+              <a id="github-acc" class="links" href="#">@github</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
